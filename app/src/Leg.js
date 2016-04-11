@@ -52,6 +52,16 @@ export default class Leg {
         ]
     }
 
+    getPopUpText(){
+        let s = ""
+        s = s + "<b> Number of vehicule : </b>" + this.count + "<br>"
+        s = s + "<b> Number of vehicule per hour : </b>" + this.per_hour.toFixed(1) + "<br>"
+        s = s + "<b> Minimum travel time : </b>" + this.min_time.toFixed(1) + " s <br>"
+        s = s + "<b> Average travel time : </b>" + this.avg_time.toFixed(1)+ " s <br>"
+        s = s + "<b> Maximum travel time : </b>" + this.max_time.toFixed(1) + " s <br>"
+        return s
+    }
+
     toLeaflet(){
         let style = {
             // Colorscale: 0 to 15min to ride 1km
@@ -59,7 +69,9 @@ export default class Leg {
             opacity: 1,
             weight: 2*Math.log(this.per_hour)
         }
-        return L.polyline(this.latLng(), style)
+        var polyl = L.polyline(this.latLng(), style)
+        polyl.bindPopup(this.getPopUpText());
+        return polyl
     }
 
     toString(){
