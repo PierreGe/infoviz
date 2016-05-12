@@ -117,7 +117,7 @@ Below the map, a two-sided datetime range picker allows you to explore different
 \end{minipage}\hfill
 \begin{minipage}{0.6\textwidth}
   \subsubsection{Stop density}
-  The density of STIB stops in Brussels has been computed using a gaussian kernel density estimation \cite{kdewiki}. Low densities (places where there are not many, or not any stops around) are red, average densities in blue and high densities (places with lots of STIB stops around) in yellow.
+  The density of STIB stops in Brussels has been computed using a gaussian kernel density estimation \cite{kdewiki}. Low densities (places where there are not many, or not any stops around) are red, average densities in blue and high densities (places with lots of STIB stops around) in yellow. We estimated the density using SciPy \cite{kdescipy}, and generated a static layer to show on the map. The user can therefore not interact with this layer.
 \end{minipage}
 
 \begin{minipage}{0.3\textwidth}
@@ -178,8 +178,12 @@ World Atlas of Language Structures,
 \\\url{http://www.puffpuffproject.com/languages.html}
 
 \bibitem{kdewiki} 
-Kernel density estimation,
+Kernel density estimation on Wikipedia,
 \\\url{https://en.wikipedia.org/wiki/Kernel_density_estimation}
+
+\bibitem{kdescipy}
+Kernel density estimation in Python using SciPy,
+\\\url{http://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.gaussian_kde.html}
 
 
 
