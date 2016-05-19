@@ -12,7 +12,7 @@
 ## How to run it
 
 You can run the client by following the readme in app/README.txt .
-
+You can't run the server since it require the postgresql database whose size excess 3Gb and it did not seem reasonnable to send it to you. If you wish it nevertheless, please send us an email and we will find a solution to hand it over to you.
 
 ## Live app
 
