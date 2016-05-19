@@ -11,15 +11,16 @@
 
 ## How to run it
 
-You can run the client by following the readme in app/README.txt .
-You can't run the server since it require the postgresql database whose size excess 3Gb and it did not seem reasonnable to send it to you. If you wish it nevertheless, please send us an email and we will find a solution to hand it over to you.
+You can run the _client_ by following the readme in `app/README.txt` .
+
+You can't run the _server_ since it require the postgresql database whose size excess 2Gb and it did not seem reasonnable to send it to you by email. If you wish it nevertheless, please send us an email and we will find a solution to hand it over to you.
 
 ## Live app
 
 A live instance of our application is available at :
 [infoviz.ititou.be](http://infoviz.ititou.be/#)
 
-Please note that the instance will be _disabled_ on the 15th June, please email us asap if you would like to run it afterwards.
+Please note that the instance will be _disabled_ on the 15th June, please email us if you would like to run it afterwards.
 
 ## Source
 
