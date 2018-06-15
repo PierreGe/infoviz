@@ -1,4 +1,6 @@
 # Mobility in Brussels
+![alt text](https://raw.githubusercontent.com/PierreGe/brussels-mobility-visualisation/master/screenshot/Screenshot1.png "Screenshot 1")
+![alt text](https://raw.githubusercontent.com/PierreGe/brussels-mobility-visualisation/master/screenshot/Screenshot2.png "Screenshot 2")
 
 ## Folder
 
@@ -31,13 +33,18 @@ Here is a list of the framework used
 1:  http://opendata.bruxelles.be/explore/dataset/arrets-stib/ 
 
 2:  http://babeljs.io/
-3:  http://leafletjs.com/
-4:  http://ionden.com/a/plugins/ion.rangeSlider/en.html
-5:  https://jquery.com/
-6:  http://getbootstrap.com/
+
+3:  http://leafletjs.com/
+
+4:  http://ionden.com/a/plugins/ion.rangeSlider/en.html
+
+5:  https://jquery.com/
+
+6:  http://getbootstrap.com/
 
 7:  https://d3js.org/
-8:  http://flask.pocoo.org/
+
+8:  http://flask.pocoo.org/
 
 Some other python packet and many other npm module has also been used. It is not possible to cite them all since the dependencie tree can be huge.
 
